@@ -132,8 +132,10 @@ textarea {
 .page-header {
   background: rgba(255, 255, 255, 0.96);
   border-bottom: 1px solid rgba(15, 23, 42, 0.08);
-  padding: 2px 20px 0;
+  padding: 16px 20px;
   text-align: center;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .page-header > div {
@@ -142,7 +144,7 @@ textarea {
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 0;
+  gap: 8px;
 }
 
 .page-kicker {
@@ -174,11 +176,12 @@ textarea {
 
 .page-header-logo {
   display: block;
-  width: min(250px, 44vw);
+  width: 100%;
+  max-width: 360px;
   height: auto;
   object-fit: contain;
-  margin: 0 auto 0;
-  filter: drop-shadow(0 8px 20px rgba(11, 46, 107, 0.12));
+  margin: 0 auto;
+  filter: drop-shadow(0 4px 12px rgba(11, 46, 107, 0.08));
 }
 
 .content {
@@ -195,7 +198,12 @@ textarea {
   }
 
   .page-header {
-    padding: 72px 14px 0;
+    padding: 12px 16px;
+    overflow-x: auto;
+  }
+
+  .page-header > div {
+    gap: 6px;
   }
 
   .page-kicker {
@@ -204,8 +212,9 @@ textarea {
   }
 
   .page-header-logo {
-    width: min(200px, 60vw);
-    margin-top: 0;
+    width: 100%;
+    max-width: calc(100vw - 60px);
+    height: auto;
   }
 
   .content {
@@ -742,7 +751,7 @@ textarea {
   }
 
   .page-header {
-    padding-top: 80px;
+    padding-top: 12px;
   }
 
   .content {
@@ -865,6 +874,10 @@ textarea {
     padding-right: 16px;
   }
 
+  .page-header {
+    padding: 10px 16px;
+  }
+
   .card,
   .service-card,
   .feature-item,
@@ -880,7 +893,7 @@ textarea {
   }
 
   .page-header-logo {
-    width: min(180px, 58vw);
+    max-width: calc(100vw - 32px);
   }
 
   .hero h2 {
