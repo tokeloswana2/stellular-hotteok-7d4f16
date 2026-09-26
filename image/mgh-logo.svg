@@ -1,25 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
-  <title id="title">Municipal Governance Hub Logo</title>
-  <desc id="desc">A bold MGH logo with a yellow, green and blue geometric mark and the words Municipal Governance Hub.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 900" role="img" aria-labelledby="title desc">
+  <title id="title">Municipal Governance Hub logo</title>
+  <desc id="desc">A clear vector version of the Municipal Governance Hub logo with yellow, green, blue, and black geometric branding and red text.</desc>
+
   <defs>
     <linearGradient id="gold" x1="0" x2="1">
-      <stop offset="0%" stop-color="#f6d928"/>
-      <stop offset="100%" stop-color="#e0c31a"/>
+      <stop offset="0%" stop-color="#f6d92d"/>
+      <stop offset="100%" stop-color="#d7be18"/>
     </linearGradient>
-    <linearGradient id="forest" x1="0" x2="1">
-      <stop offset="0%" stop-color="#367d3a"/>
-      <stop offset="100%" stop-color="#0d5d31"/>
+    <linearGradient id="green" x1="0" x2="1">
+      <stop offset="0%" stop-color="#2f7d3e"/>
+      <stop offset="100%" stop-color="#0d5d2f"/>
     </linearGradient>
   </defs>
 
-  <g transform="translate(25, 20)">
-    <path d="M0 330 C 120 260, 140 140, 210 70 L 350 240 C 280 330, 250 420, 150 520 L 0 330 Z" fill="url(#gold)"/>
-    <path d="M150 520 L 530 120 L 600 200 L 330 520 Z" fill="#0e0e0e"/>
-    <path d="M313 380 L 520 160 L 640 250 L 465 520 Z" fill="url(#forest)"/>
-    <path d="M470 520 L 680 280 L 760 360 L 570 520 Z" fill="#0d4bb1"/>
-    <path d="M130 520 L 300 300 L 420 520 Z" fill="#0e0e0e" opacity="0.96"/>
+  <g transform="translate(0,30)">
+    <path d="M50 470 C 120 350, 230 190, 360 115 L 480 220 C 430 300, 400 370, 310 520 L 50 470 Z" fill="url(#gold)"/>
 
-    <text x="410" y="350" font-size="380" font-weight="900" font-family="Arial Black, Segoe UI, sans-serif" fill="#0d0d0d" letter-spacing="-22">MGH</text>
-    <text x="420" y="470" font-size="94" font-weight="900" font-family="Arial Black, Segoe UI, sans-serif" fill="#d11212" letter-spacing="1">MUNICIPAL GOVERNANCE HUB</text>
+    <path d="M290 550 L 680 185 L 820 290 L 470 620 Z" fill="#111111"/>
+    <path d="M430 635 L 770 215 L 905 325 L 600 655 Z" fill="url(#green)"/>
+    <path d="M705 620 L 930 345 L 1018 420 L 820 660 Z" fill="#0d4da3"/>
+
+    <path d="M260 530 L 395 410 L 560 530 L 430 670 L 260 530 Z" fill="#111111" opacity="0.96"/>
+
+    <text x="435" y="420" font-size="430" font-weight="900" font-family="Arial Black, Segoe UI, sans-serif" fill="#0d0d0d" letter-spacing="-24">MGH</text>
+    <text x="450" y="585" font-size="108" font-weight="900" font-family="Arial Black, Segoe UI, sans-serif" fill="#d91d1d" letter-spacing="1">MUNICIPAL GOVERNANCE HUB</text>
   </g>
 </svg>
