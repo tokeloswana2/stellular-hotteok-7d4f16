@@ -1,18 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="logo-title logo-description">
   <title id="logo-title">MGH Municipal Governance Hub</title>
   <desc id="logo-description">Municipal Governance Hub logo with yellow, green and blue abstract mark, large MGH lettering, and red organization name.</desc>
-  <rect width="1600" height="900" fill="#ffffff"/>
+  <rect x="0" y="0" width="1600" height="900" rx="24" fill="#ffffff"/>
 
-  <!-- Abstract brand mark -->
   <path fill="#fff000" d="M55 455c28-84 99-139 180-181l224-116v108c0 65-29 112-87 146L73 565c-19-34-25-70-18-110z"/>
   <path fill="#296d08" d="M56 655c20-61 64-107 126-143l277-164v104c0 67-30 111-89 147L73 795c-19-39-25-90-17-140z"/>
   <path fill="#252ab5" d="M305 710l168-91v168l-168-77z"/>
 
-  <!-- Main initials -->
   <text x="465" y="525" fill="#050505" font-family="Arial Black, Arial, sans-serif" font-size="430" font-weight="900" letter-spacing="-22">M</text>
   <text x="845" y="525" fill="#296d08" font-family="Arial Black, Arial, sans-serif" font-size="430" font-weight="900" letter-spacing="-22">G</text>
   <text x="1160" y="525" fill="#050505" font-family="Arial Black, Arial, sans-serif" font-size="430" font-weight="900" letter-spacing="-22">H</text>
-
-  <!-- Organization name -->
   <text x="470" y="690" fill="#cf1111" font-family="Arial Narrow, Arial, sans-serif" font-size="86" font-weight="900" letter-spacing="1">MUNICIPAL GOVERNANCE HUB</text>
 </svg>
