@@ -1,23 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="logo-title">
-  <title id="logo-title">MGH Municipal Governance Hub</title>
-  
-  <!-- White background -->
-  <rect width="1200" height="500" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Municipal Governance Hub</title>
+  <desc id="desc">Original logo with yellow, green, and blue geometric shapes, large black and green MGH lettering, and red text.</desc>
 
-  <!-- Geometric mark: Yellow shape -->
-  <path fill="#fff000" d="M40 280c20-60 70-100 130-130l160-80v75c0 45-20 80-60 105L40 380c-14-25-18-50-13-80z"/>
-  
-  <!-- Geometric mark: Green shape -->
-  <path fill="#2d7d38" d="M40 380c15-45 45-75 90-100l200-115v75c0 48-22 80-65 105L40 470c-14-28-18-65-12-100z"/>
-  
-  <!-- Geometric mark: Blue triangle -->
-  <path fill="#0d4ea8" d="M220 430l120-65v120l-120-55z"/>
+  <rect width="1600" height="900" fill="#ffffff"/>
 
-  <!-- Main text: MGH -->
-  <text x="340" y="320" font-family="Arial Black, sans-serif" font-size="280" font-weight="900" letter-spacing="-15">
-    <tspan fill="#050505">M</tspan><tspan fill="#2d7d38">G</tspan><tspan fill="#050505">H</tspan>
-  </text>
+  <!-- Yellow ribbon -->
+  <path d="M60 500 C 130 360, 250 220, 420 125 L 545 250 C 460 360, 392 440, 290 560 L 60 500 Z" fill="#f3d21b"/>
 
-  <!-- Subtext: MUNICIPAL GOVERNANCE HUB -->
-  <text x="360" y="420" font-family="Arial, sans-serif" font-size="68" font-weight="900" fill="#d61919" letter-spacing="0.5">MUNICIPAL GOVERNANCE HUB</text>
+  <!-- Black M -->
+  <path d="M340 185 L 520 185 L 520 640 L 340 640 L 340 185 Z" fill="#111111"/>
+  <path d="M520 185 L 770 450 L 1020 185 L 1040 185 L 1040 640 L 840 640 L 840 470 L 770 550 L 700 470 L 700 640 L 520 640 Z" fill="#111111"/>
+
+  <!-- Green G -->
+  <path d="M820 200 L 1090 200 L 1090 640 L 820 640 L 820 200 Z" fill="#1f6e37"/>
+  <path d="M820 200 L 1090 200 L 1090 360 L 940 360 L 940 440 L 1090 440 L 1090 640 L 820 640 Z" fill="#1f6e37"/>
+
+  <!-- Black H -->
+  <path d="M1110 185 L 1350 185 L 1350 640 L 1110 640 Z" fill="#111111"/>
+  <path d="M1110 185 L 1345 185 L 1345 640 L 1110 640 Z" fill="#111111"/>
+
+  <!-- Lower blue arrow -->
+  <path d="M500 645 L 780 380 L 900 480 L 650 645 Z" fill="#0c4ea5"/>
+
+  <!-- Red text -->
+  <text x="470" y="760" font-family="Arial Black, Arial, sans-serif" font-size="110" font-weight="900" fill="#d71919" letter-spacing="1">MUNICIPAL GOVERNANCE HUB</text>
 </svg>
